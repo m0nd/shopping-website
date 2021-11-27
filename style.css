@@ -1,0 +1,75 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main-header {
+    border-bottom: .5em solid #3c3c3c;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.main-header > h1 {
+    color: #009245;
+}
+.main-header > nav {
+    align-self: center;
+}
+.main-header nav > ul {
+    list-style-type: none;
+}
+.main-header nav > ul > li {
+    display: inline;
+    width: 25%;
+}
+
+.main-header a:link {
+    text-decoration: none;
+}
+.main-header a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-top: 2em;
+    margin-bottom: 10em;
+}
+
+section > h2 {
+    text-align: center;
+    font-style: italic;
+}
+
+.product-display {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr auto;
+    justify-content: center;
+}
+
+article > footer {
+    text-align: center;
+}
+article > footer > h3 {
+    font-weight: lighter;
+}
+article > footer > span {
+    color: #6d6d6d;
+}
+
+.img-container {
+    text-align: center;
+}
+
+
+.main-footer {
+    padding-left: 2em;
+    padding-right: 2em;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+}
